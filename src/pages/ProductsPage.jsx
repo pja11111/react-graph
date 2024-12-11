@@ -8,6 +8,7 @@ import CategoryDistributionChart from "../components/overview/CategoryDistributi
 import SalesTrendChart from "../components/products/SalesTrendChart";
 import ProductsTable from "../components/products/ProductsTable";
 
+
 const ProductsPage = () => {
 	return (
 		<div className='flex-1 overflow-auto relative z-10'>
@@ -33,6 +34,7 @@ const ProductsPage = () => {
 				<div className='grid grid-col-1 lg:grid-cols-2 gap-8'>
 					<SalesTrendChart />
 					<CategoryDistributionChart />
+					
 				</div>
 			</main>
 		</div>
