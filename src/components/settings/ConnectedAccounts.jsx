@@ -24,7 +24,7 @@ const ConnectedAccounts = () => {
 		},
 		{
 			id: 4,
-			name: "Instargram",
+			name: "Instagram",
 			connected: true,
 			icon: "/x.png",
 		},
